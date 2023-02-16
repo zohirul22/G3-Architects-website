@@ -154,7 +154,73 @@ a:hover {
     padding: 45px 0;
     margin-left: auto;
     margin-right: auto;
-   
+
 }
 
 /* bannar section */
+/* main section  */
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+}
+
+.features-img {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+}
+
+.features-info {
+    margin-left: 30px;
+}
+
+.features-info h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.features-info p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 23px 0px;
+    color: #727272;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .features-img {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+
+    }
+
+    .features-info h2 {
+        font-size: 35px;
+    }
+
+    .features-info {
+        text-align: center;
+    }
+
+}
+
+/* main section  */
