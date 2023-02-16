@@ -451,9 +451,40 @@ main {
 
 /* Sponspors section */
 
-
-
-
-
-
 /* main section  */
+/* footer */
+footer {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 35px;
+    margin-top: 80px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        width: 100%;
+    }
+
+    footer p {
+
+        font-size: 14px;
+        padding: 0px 30px;
+        padding-top: 35px;
+
+    }
+}
+
+/* footer */
