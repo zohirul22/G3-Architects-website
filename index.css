@@ -48,7 +48,7 @@ a {
 }
 
 a:hover {
-    background-color: #111;
+    background-color: #125879;
     color: aliceblue;
 }
 
@@ -405,6 +405,7 @@ main {
 /* Sponspors section */
 .Sponspors {
     text-align: center;
+    margin-top: 150px;
 }
 
 .Sponspors h1 {
@@ -450,6 +451,135 @@ main {
 }
 
 /* Sponspors section */
+
+/* contract-card */
+
+.contract h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 44px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.contract-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 0px 50px;
+}
+.contract-single-card{
+   
+    border-radius: 8px;
+    text-align: center;
+    background-color: #FFFFFF;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    line-height: 100%;
+    background-color: #67c3ee6b;
+}
+
+.contract-single-card h1{
+    font-size: 70px;
+    color: rgba(209, 11, 166, 0.685);
+}
+.contract-single-card h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+  
+}
+.contract-single-card p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 50px;
+}
+
+.contract-from{
+background-color: rgba(127, 255, 212, 0.63);
+width: 700px;
+padding: 30px 30px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+}
+
+form {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+label {
+	display: block;
+	margin-top: 10px;
+}
+
+input,
+textarea {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-top: 5px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+button[type="submit"] {
+    width: 180px;
+    height: 54px;
+    background: #ff8f0ef6;
+    border-radius: 8px;
+    border: 0px;
+	margin-top: 20px;
+	padding: 10px 20px;
+	font-size: 25px;
+    font-weight: 500;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+
+button[type="submit"]:hover {
+	background-color: #f05c06;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .contract-card{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 20px;
+        padding: 0px 50px;
+    }
+    .contract-from{
+        background-color: rgba(127, 255, 212, 0.63);
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        }
+        
+}
+
+
+
+
+
 
 /* main section  */
 /* footer */
